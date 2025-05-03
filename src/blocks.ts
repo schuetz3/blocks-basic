@@ -79,7 +79,7 @@ export default function(editor: Editor, opts: Required<PluginOptions>) {
   // Flex elements do not react on width style change therefore I use
   // 'flex-basis' as keyWidth for the resizer on columns
   if (flexGrid) {
-    resizerRight.keyWidth = 'flex-basis';
+    resizerRight['keyWidth'] = 'flex-basis';
   }
 
   const rowAttr = {
